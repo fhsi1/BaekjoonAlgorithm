@@ -11,7 +11,6 @@ int		main()
 {
 	int	N, i, j;
 	int	arr[1000000] = {0, };
-	int	min;
 
 	scanf("%d", &N);
 
@@ -22,7 +21,6 @@ int		main()
 
 	for (i = 0; i < N; i++)
 	{
-		min = arr[i];
 		for (j = 0; j < N; j++)
 		{
 			if (arr[i] < arr[j])
